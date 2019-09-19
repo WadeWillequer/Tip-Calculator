@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(to right, #DBFEB8, #93B1A7);
+}
+
+#container {
+    background-color: white;
+    height: 525px;
+    width: 360px;
+    margin: 100px auto; /* Give the element a margin of 100px on the top and bottom, and automatically calculate the left and right margin to center it horizontally */
+    border-radius: 20px; /* round off the edges of the element */
+    box-shadow: 5px 10px 5px #0808086e /* box shadow properties: horizontal offset(required), vertical offset (required), blur, spread, color */
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 100px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+p {
+    padding-left: 20px;
+}
+
+#billAmt, #ServiceQuality, #Sharing {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+#billAmt:focus, #ServiceQuality:focus, #Sharing:focus {
+    border: 3px solid green;
+    outline: none;
+}
+
+button {
+    display:block;
+    margin: 100px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+    background-color: rgba(172, 255, 47, 0.329);
+    color: green;
+}
+
+button:hover {
+    background-color: rgba(143, 228, 15, 0.664);
+}
+
+button:focus {
+    outline: none;
+}
