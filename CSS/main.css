@@ -27,19 +27,19 @@ p {
     padding-left: 20px;
 }
 
-#billAmt, #ServiceQuality, #Sharing {
+#billAmt, #serviceQuality, #Sharing {
     margin-left: 20px;
     font-size: 14px;
 }
 
-#billAmt:focus, #ServiceQuality:focus, #Sharing:focus {
+#billAmt:focus, #serviceQuality:focus, #Sharing:focus {
     border: 3px solid green;
     outline: none;
 }
 
 button {
     display:block;
-    margin: 100px auto;
+    margin: 50px auto;
     text-transform: uppercase;
     font-weight: bold;
     width: 200px;
@@ -55,4 +55,10 @@ button:hover {
 
 button:focus {
     outline: none;
+}
+
+#tipAmount {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
 }
